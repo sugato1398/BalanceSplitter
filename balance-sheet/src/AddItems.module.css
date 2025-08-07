@@ -1,0 +1,69 @@
+.inputRow {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.input {
+  background: #fff;
+  color: #000;
+  border-radius: 8px;
+  padding: 4px 8px;
+  border: 1px solid #ccc;
+}
+
+/* Hide number input spinners for Chrome, Safari, Edge, Opera */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+/* Hide number input spinners for Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: none;
+}
+
+.error {
+  color: red;
+  margin-bottom: 8px;
+}
+
+.itemList {
+  padding-left: 0;
+}
+
+.itemEntry {
+  list-style: none;
+  margin-bottom: 4px;
+}
+
+.itemName {
+  color: #000;
+  text-align: left;
+}
+
+.removeButton {
+  margin-left: 8px;
+}
+
+.nextButton {
+  margin-top: 16px;
+}
+
+.hint {
+  color: #888;
+  margin-top: 8px;
+}
+
+.memberCheckboxContainer {
+  max-height: 120px;
+  overflow-y: auto;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 4px 8px;
+  margin-top: 4px;
+}

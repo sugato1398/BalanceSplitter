@@ -1,0 +1,42 @@
+.inputRow {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.input {
+  border-radius: 8px;
+  background: #fff;
+  color: #000;
+}
+
+.error {
+  color: red;
+  margin-bottom: 8px;
+}
+
+.memberList {
+  padding-left: 0;
+}
+
+.memberItem {
+  list-style: none;
+  margin-bottom: 4px;
+}
+
+.memberName {
+  color: green;
+}
+
+.removeButton {
+  margin-left: 8px;
+}
+
+.nextButton {
+  margin-top: 16px;
+}
+
+.hint {
+  color: #888;
+  margin-top: 8px;
+}
